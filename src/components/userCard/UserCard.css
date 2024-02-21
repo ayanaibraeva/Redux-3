@@ -1,0 +1,28 @@
+.cardUserContent {
+    width: 390px;
+    height: 450px;
+    background-color: #a9a8a8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.cardUserContent img{
+    border-radius: 50%;
+    border: 2px solid rgba(24, 22, 22, 0.5);
+    padding: 5px;
+}
+
+.cardUserContent h1{
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #262626;
+}
+
+.cardUserContent p{
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #262626;
+}

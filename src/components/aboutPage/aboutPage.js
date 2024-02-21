@@ -18,6 +18,7 @@
         return (
             <div className="cardUser">
                 {users[0] && users[0].map(item => (<UserCard key={item.id} cardInfo={item} />))}
+                {/*{users.length > 0 && <UserCard key={users[0].id} cardInfo={users[0]} />}*/}
             </div>
         );
     };
